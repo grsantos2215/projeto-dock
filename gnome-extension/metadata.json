@@ -1,0 +1,9 @@
+{
+  "uuid": "projeto-dock@gabrielferraz",
+  "name": "Projeto Dock",
+  "description": "Dock flutuante inspirada no COSMIC. Arraste arquivos ou pastas sobre um app para abri-los nele, como no macOS.",
+  "shell-version": ["42"],
+  "settings-schema": "org.gnome.shell.extensions.projeto-dock",
+  "url": "",
+  "version": 1
+}

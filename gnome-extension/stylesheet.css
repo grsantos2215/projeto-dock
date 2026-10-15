@@ -1,0 +1,185 @@
+/* Visual inspirado na dock do COSMIC: barra flutuante, arredondada e translúcida */
+
+.projeto-dock {
+    background-color: rgba(27, 27, 27, 0.88);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 20px;
+    padding: 6px;
+    spacing: 4px;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.35);
+}
+
+.projeto-dock.drop-mode {
+    border-color: rgba(99, 208, 223, 0.55);
+}
+
+.projeto-dock-section {
+    spacing: 4px;
+}
+
+.projeto-dock-separator {
+    width: 1px;
+    margin: 10px 4px;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.projeto-dock-item {
+    border-radius: 14px;
+    padding: 6px 6px 2px 6px;
+    transition-duration: 150ms;
+}
+
+.projeto-dock-item:hover,
+.projeto-dock-item:focus,
+.projeto-dock-item:active {
+    background-color: rgba(255, 255, 255, 0.10);
+}
+
+.projeto-dock-item.focused {
+    background-color: rgba(255, 255, 255, 0.14);
+}
+
+/* alvo de um arquivo sendo arrastado */
+.projeto-dock-item:drop {
+    background-color: rgba(99, 208, 223, 0.40);
+    box-shadow: inset 0 0 0 2px rgba(99, 208, 223, 0.9);
+}
+
+.projeto-dock-item.urgent {
+    background-color: rgba(224, 27, 36, 0.30);
+}
+
+.projeto-dock-item.missing {
+    opacity: 0.4;
+}
+
+.projeto-dock-show-apps-icon {
+    color: #f2f2f2;
+}
+
+.projeto-dock-dots {
+    height: 4px;
+    margin-top: 2px;
+    spacing: 3px;
+}
+
+.projeto-dock-dot {
+    width: 4px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: rgba(255, 255, 255, 0.55);
+}
+
+.projeto-dock-item.focused .projeto-dock-dot {
+    width: 12px;
+    background-color: #63d0df;
+}
+
+.projeto-dock-badge {
+    background-color: #e01b24;
+    color: #ffffff;
+    border-radius: 9px;
+    min-width: 10px;
+    padding: 1px 5px;
+    font-size: 9pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+.projeto-dock-progress {
+    height: 5px;
+    margin-bottom: 2px;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+.projeto-dock-progress-fill {
+    border-radius: 3px;
+    background-color: #63d0df;
+}
+
+.projeto-dock-tooltip {
+    background-color: rgba(27, 27, 27, 0.95);
+    color: #f2f2f2;
+    border-radius: 10px;
+    padding: 5px 12px;
+    font-size: 10pt;
+}
+
+/* miniaturas das janelas */
+.projeto-dock-previews {
+    background-color: rgba(27, 27, 27, 0.95);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 18px;
+    padding: 8px;
+    spacing: 6px;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.35);
+}
+
+.projeto-dock-preview {
+    border-radius: 12px;
+    padding: 6px;
+    color: #f2f2f2;
+}
+
+.projeto-dock-preview:hover,
+.projeto-dock-preview:focus {
+    background-color: rgba(255, 255, 255, 0.10);
+}
+
+.projeto-dock-preview-box {
+    spacing: 6px;
+}
+
+.projeto-dock-preview-header {
+    spacing: 6px;
+    max-width: 220px;
+}
+
+.projeto-dock-preview-title {
+    font-size: 9pt;
+}
+
+.projeto-dock-preview-close {
+    border-radius: 99px;
+    padding: 3px;
+    color: #f2f2f2;
+}
+
+.projeto-dock-preview-close:hover {
+    background-color: rgba(224, 27, 36, 0.8);
+}
+
+/* pilhas */
+.projeto-dock-stack-grid {
+    min-width: 420px;
+}
+
+.projeto-dock-stack-button {
+    border-radius: 12px;
+    padding: 8px 4px;
+}
+
+.projeto-dock-stack-button:hover,
+.projeto-dock-stack-button:focus {
+    background-color: rgba(255, 255, 255, 0.10);
+}
+
+.projeto-dock-stack-cell {
+    spacing: 4px;
+    width: 76px;
+}
+
+.projeto-dock-stack-label {
+    font-size: 9pt;
+    max-width: 76px;
+}
+
+.projeto-dock-stack-empty {
+    padding: 12px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.projeto-dock-menu-title {
+    font-weight: bold;
+}

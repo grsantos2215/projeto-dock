@@ -1,0 +1,6 @@
+# Rust
+/cosmic-applet/target/
+
+# Extensão GNOME (gerado pelo install.sh)
+/gnome-extension/schemas/gschemas.compiled
+/gnome-extension/*.zip

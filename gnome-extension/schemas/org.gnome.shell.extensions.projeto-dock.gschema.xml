@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <enum id="org.gnome.shell.extensions.projeto-dock.autohide-mode">
+    <value nick="always-visible" value="0"/>
+    <value nick="autohide" value="1"/>
+    <value nick="intellihide" value="2"/>
+  </enum>
+  <schema id="org.gnome.shell.extensions.projeto-dock" path="/org/gnome/shell/extensions/projeto-dock/">
+    <key name="icon-size" type="i">
+      <range min="24" max="96"/>
+      <default>48</default>
+      <summary>Tamanho dos ícones</summary>
+    </key>
+    <key name="bottom-margin" type="i">
+      <range min="0" max="64"/>
+      <default>8</default>
+      <summary>Distância entre a dock e a borda da tela</summary>
+    </key>
+    <key name="autohide-mode" enum="org.gnome.shell.extensions.projeto-dock.autohide-mode">
+      <default>'intellihide'</default>
+      <summary>Como a dock se esconde</summary>
+    </key>
+    <key name="show-previews" type="b">
+      <default>true</default>
+      <summary>Mostrar miniaturas das janelas ao passar o mouse</summary>
+    </key>
+    <key name="show-recents" type="b">
+      <default>true</default>
+      <summary>Mostrar arquivos recentes no menu de cada app</summary>
+    </key>
+    <key name="pinned-items" type="as">
+      <default>[]</default>
+      <summary>Pastas (pilhas) e arquivos fixados na dock, como URIs</summary>
+    </key>
+  </schema>
+</schemalist>

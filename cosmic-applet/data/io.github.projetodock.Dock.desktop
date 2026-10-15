@@ -1,0 +1,18 @@
+[Desktop Entry]
+Name=Projeto Dock
+Name[pt_BR]=Projeto Dock
+Comment=App Tray com "soltar para abrir": arraste arquivos sobre um app para abri-los nele
+Comment[pt_BR]=Bandeja de aplicativos com "soltar para abrir": arraste arquivos sobre um app para abri-los nele
+Type=Application
+Exec=@BIN@
+Terminal=false
+Categories=COSMIC;
+Keywords=COSMIC;Applet;App;Tray;Dock;Drop;
+Icon=com.system76.CosmicAppList
+StartupNotify=true
+NoDisplay=true
+X-CosmicApplet=true
+X-MinimizeApplet=5
+X-OverflowPriority=100
+X-OverflowMinSize=4
+X-HostWaylandDisplay=true
