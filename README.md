@@ -75,7 +75,7 @@ arquivo `cosmic-applet/rust-toolchain.toml`.
 ### 3. Baixe e instale o Projeto Dock
 
 ```sh
-git clone https://github.com/<usuario>/projeto-dock.git
+git clone https://github.com/grsantos2215/projeto-dock.git
 cd projeto-dock/cosmic-applet
 ./install.sh
 ```
